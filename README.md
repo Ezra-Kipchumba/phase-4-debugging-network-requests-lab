@@ -63,11 +63,16 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  > Internal server error = "#<NameError: uninitialized constant ToysController::Toys>"
+  > Checked whichever point Toys existed in controller
 
 - Update the number of likes for a toy
 
   - How I debugged:
 
+  >render json to show status on any update
+
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  >No route for destroy, define route
